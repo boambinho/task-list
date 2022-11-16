@@ -1,4 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import tareas from "../App.js";
+
+function OrdenLista() {
+  const [tareas, setLista] = useState(tareas);
+}
 
 const ListaTarea = ({ lista }) => (
   <ol>
