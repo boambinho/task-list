@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // Lista estática
-const tareas = [
+export const tareas = [
   { id: 1, hecho: true, nombre: "Prueba React", fecha: "21 Noviembre" },
   { id: 2, hecho: true, nombre: "Prueba JS", fecha: "24 Noviembre" },
   { id: 3, hecho: false, nombre: "Deportes", fecha: "29 Noviembre" },
