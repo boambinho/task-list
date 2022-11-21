@@ -1,5 +1,5 @@
 import "./App.css";
-import useTareaList from "../src/hooks/listHook";
+import useTareaList from "./hooks/addDeleteUpdate";
 import { useState } from "react";
 
 function App() {
