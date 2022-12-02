@@ -5,7 +5,12 @@ export default function Inputs({ eventSubmit }) {
     <form onSubmit={eventSubmit}>
       <input type="text" name="name" placeholder="Name" minLength={3} />
       <input type="date" name="date" placeholder="Date" required />
-      <input type="text" name="description" placeholder="Description" />
+      <input
+        type="text"
+        name="description"
+        placeholder="Description"
+        notrequired
+      />
       <input type="checkbox" name="state" placeholder="State" value="true" />
       <input type="submit" value="Submit" />
     </form>

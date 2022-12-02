@@ -48,3 +48,39 @@ img {
   flex-direction: row;
   gap: 1rem;
 }
+
+h1 {
+  text-align: center;
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+.aboutUs {
+  text-align: inherit;
+  margin: 1rem;
+}
+
+.navbar {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*hover en navbar*/
+a:hover {
+  color: rgb(75, 72, 72);
+  text-decoration: none;
+}
