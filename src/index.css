@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font: 400 clamp(16px, 2.5vw, 20px) "Syne Mono", monospace;
+}
+
+* {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}

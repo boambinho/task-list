@@ -1,0 +1,88 @@
+table {
+  margin: 1rem;
+  border-collapse: collapse;
+  width: calc(100% - 2rem);
+}
+
+td,
+th {
+  border: 0.25rem solid #000;
+  text-align: left;
+  padding: 1rem;
+}
+
+tr:nth-child(even),
+input[type='submit'] {
+  background: #e3e3e3;
+}
+
+input {
+  font: 400 1em 'Syne Mono', monospace;
+  border: 0.25rem solid #000;
+  padding: 1rem;
+}
+
+input[type='checkbox'] {
+  zoom: 2.5;
+}
+
+form {
+  background: #fff;
+  top: 0;
+  position: sticky;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+img {
+  align-content: center;
+}
+
+.iconos {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.subtitulo {
+  text-align: center;
+}
+
+.aboutUs {
+  text-align: inherit;
+  margin: 1rem;
+}
+
+.navbar {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*hover en navbar*/
+a:hover {
+  color: rgb(75, 72, 72);
+  text-decoration: none;
+}
